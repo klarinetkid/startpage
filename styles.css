@@ -1,0 +1,79 @@
+
+:root {
+    background-color: #1a1a1a;
+    color: #dfdfdf;
+}
+
+@keyframes fadein {
+	from {
+		transform: scale(0.75, 0.75);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1,1);
+		opacity: 1;
+	}
+}
+
+body {
+	animation-name: fadein;
+	animation-duration: 0.6s;
+	animation-fill-mode: forwards;
+}
+
+.category {
+	border-radius: 4px;
+	overflow-y: hidden;
+    display: inline-block;
+	margin: 10px;
+    width: 200px;
+	background-color: #724944;
+	text-align: left;
+}
+
+.category-title {
+    font-weight: bold;
+	font-size: 28px;
+	font-family: PT Sans;
+    padding: 9px;
+}
+
+.links-container { 
+	text-align: center; 
+}
+
+.link {
+	color: #999999;
+    padding: 9px 12px;
+    font-size: 18px;
+	background-color: #333333;
+	display: block;
+	font-family: Monofonto;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #ffcc00;
+}
+
+.match { 
+	color: #ff4d4d;
+}
+
+.weather-holder {
+	text-align: center;
+	font-size: 20;
+	font-family: PT Sans;
+	margin-bottom: 50px;
+}
+
+.Rain { color: #3333ff; }
+.Clouds { color: #888888; }
+.Mist { color: #7777ff; }
+
+#time {
+	font-size: 96px;
+	font-family: Monofonto, Monospace;
+	margin-top: 80px;
+	text-align: center;
+}

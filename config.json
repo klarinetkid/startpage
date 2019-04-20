@@ -1,0 +1,22 @@
+{
+    "Social": [
+        ["YouTube", "https://youtube.com"],
+        ["Reddit", "https://reddit.com"],
+        ["Gmail", "https://mail.google.com"]
+    ],
+    "School": [
+        ["Knowplace", "http://sd43.knowplace.ca/my/"],
+        ["Schedule", "https://tiffany.inquiryhub.org/?p=schedule"],
+        ["OneNote", "https://sd43bcca-my.sharepoint.com/:o:/r/personal/asoiseth_sd43_bc_ca/_layouts/15/WopiFrame.aspx?sourcedoc=%7B9C1572C3-89AF-47D7-9D2D-DC571FABDE59%7D&file=20th%20Century%20Humanities&action=default&RootFolder=%2fpersonal%2fasoiseth_sd43_bc_ca%2fDocuments%2fClass%20Notebooks%2f20th%20Century%20Humanities&d=w9c1572c389af47d79d2ddc571fabde59&e=5:7be2e7ec9c70479fa170d96271dba68b&at=9&CID=44cff85a-ca1f-4b16-a372-165e4ee05184"]
+    ],
+    "Misc": [
+        ["Calendar", "https://calendar.google.com/"],
+        ["WordReference", "http://www.wordreference.com/"],
+        ["Paystubs", "https://ip.nethris.com/general/login/ChoixEntreprise.xhtml"]
+    ],
+    "Docs": [
+        ["Polybar", "https://github.com/jaagr/polybar/wiki"],
+        ["i3wm", "https://i3wm.org/docs/userguide.html"],
+		["Rust", "https://doc.rust-lang.org/"]
+    ]
+}
